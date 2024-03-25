@@ -1,1 +1,52 @@
-body{background-color: rgb(46, 44, 48 );}
+body{background-color: rgb(46, 44, 48 );
+    width: 1400px;
+  }
+
+.menu {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(46, 44, 48 );
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    flex-direction: column;
+  }
+.menu a{
+    color: white;
+    padding: 16px;
+    text-decoration: chartreuse;
+}
+.menu a:hover{
+    color:grey;
+
+}
+.p1{
+    width: 90%;
+    background-color: cyan;
+    text-align: center;
+    border-left: 200px solid;
+    padding: 10px;
+}
+
+.p2{
+    width: 90%;
+    background-color: yellow;
+    text-align: center;
+    border-left: 200px solid;
+    padding: 10px;
+}
+.p3{
+    width: 90%;
+    background-color: orange;
+    text-align: center;
+    border-left: 200px solid;
+    padding: 10px;
+}
+.p4{
+    width: 90%;
+    background-color: red;
+    text-align: center;
+    border-left: 200px solid;
+    padding: 10px;
+}
